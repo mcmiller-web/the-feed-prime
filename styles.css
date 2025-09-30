@@ -1,0 +1,88 @@
+@font-face {
+    font-family: molle;
+    src: url(font/Molle-Regular.ttf);
+}
+
+@font-face {
+    font-family: worksans;
+    src: url(font/worksans-italic-vf.ttf);
+}
+
+.body {
+    background-color: rgb(0, 163, 175);
+    margin: 0;
+    font-family: worksans;
+    font-style:normal;
+    text-align: center;  
+    color: rgb(240, 196, 255);  
+    font-size: 20px;
+}
+
+.h1 {
+    font-size: 100;
+    font-family: molle;
+    margin-top: 20;
+    margin-bottom: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.h2 {
+    font-family: molle;
+    font-size: 46px;
+    position:relative;
+    color: azure;
+}
+
+.p {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+
+.feed-images {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    justify-items: center;
+}
+
+.feed-images img {
+    width: 800px;
+    max-width: 350px;
+    height: auto;
+    border-radius: 8px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.feed-images img:hover { 
+    transform: scale(1.1);
+    box-shadow: 0px 8px 20px rgba(blue);
+    filter: brightness(1.2);
+}
+/* NEXT LEVEL FEATURE: Image effect on the feed images to make the photo brighten when the mouse hovers over.*/
+
+.a {
+    font-family: molle;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: rgb(194, 255, 235);
+    font-size: 30px;
+}
+
+.gif {
+    width: 850px;
+    height: auto;
+    padding-top: 10px;
+    margin:0px auto;
+    justify-items: center;
+
+}
+
+.back-button img {
+    width: 200px;
+    height: auto;
+}
+/* NEXT LEVEL FEATURE: Created a graphic icon for my "back-button" on the web pages */
